@@ -15,7 +15,7 @@ class eWalletTest {
 
     @Test
     void setBalance() {
-        eWallet.setBalance(900);
+        eWallet.setBalance(1000);
         assertEquals(1000,eWallet.getBalance());
     }
 
