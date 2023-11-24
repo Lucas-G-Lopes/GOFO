@@ -1,14 +1,18 @@
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
+package System;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
 
 public class PlayerTest {
 
     private Player player;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         player = new Player();
     }
@@ -49,7 +53,7 @@ public class PlayerTest {
 
         player.editPlayerinfo();
 
-        assertEquals("NewFirstName", player.getFName());
+        assertEquals("NewFirstName", player.getFullName());
     }
 
     // Add more test methods for other functions in Player class

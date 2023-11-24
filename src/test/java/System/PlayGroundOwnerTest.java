@@ -1,14 +1,18 @@
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
+package System;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
-public class PlaygroundOwnerTest {
+class PlaygroundOwnerTest {
 
     private PlaygroundOwner playgroundOwner;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         playgroundOwner = new PlaygroundOwner();
     }
