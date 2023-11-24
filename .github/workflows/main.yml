@@ -30,6 +30,6 @@ jobs:
         if: always()
         with:
           name: Maven Tests
-          path: workflows/*.xml
+          path: target/surefire-reports/*.xml
           reporter: java-junit
           fail-on-error: true
