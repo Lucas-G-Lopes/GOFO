@@ -1,6 +1,6 @@
 # GOFO
 
-### PT-BR
+## PT-BR
 
 <h3>1. Introdução</h3>
 Nosso sistema é um sistema de reservas para campos de futebol. Atende os jogadores e proprietários de campo. Um administrador supervisiona as operações gerais do sistema e garante que nenhuma fraude ocorra. Qualquer pessoa pode se cadastrar no sistema e criar um perfil. É possível verificar os campos próximos ou em uma área específica ou todos eles. 
@@ -23,7 +23,7 @@ Uma eWallet é um sistema de pagamento eletrônico usado para permitir que os jo
 <h4>3.3 Jogador</h4>
 Esta é uma pessoa que está interessada em reservar um campo. Ele se registra no sistema e cria um perfil conforme descrito acima. Ele pode exibir os campos próximos a ele ou em um local específico em datas específicas. Ele pode filtrá-los pelas horas e data que selecionar. Ele pode reservar um horário de 1 ou mais horas, se disponível e não reservado. A reserva inclui (1) Verificar campos e horários disponíveis (2) Selecionar o(s) horário(s) livre(s) que deseja (3) Calcular o preço total (4) Pagar o valor de sua carteira eletrônica para a carteira eletrônica do proprietário (5) O o sistema atualiza o status do(s) slot(s) reservado(s) para que ninguém mais possa reservá-lo e, opcionalmente, (6) O jogador pode enviar convite aos membros de sua equipe por e-mail. Para facilitar esta última etapa, ele pode criar seu time favorito e armazenar seus nomes e e-mails. Em seguida, ele pode selecionar toda a equipe de uma vez para enviar e-mails. Um jogador também pode cancelar uma reserva se estiver dentro do período de cancelamento.
 
-### Original
+## Original
 
 <h3>1. Introduction</h3>
 Our system is a booking system for football playgrounds. It serves the players and playground owners as well. An administrator oversees the overall operations of the system and ensures that no fraud takes place. Anyone can register himself on the system and create a profile. He can see the playgrounds near to him or in a specific area or all of them. 
